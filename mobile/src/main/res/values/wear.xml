@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="number_capability_string" translatable="false">number_capability</string>
+
+    <string-array name="android_wear_capabilities">
+        <item>@string/number_capability_string</item>
+    </string-array>
+
+</resources>

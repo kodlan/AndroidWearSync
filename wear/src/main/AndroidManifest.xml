@@ -16,16 +16,28 @@
             android:name="com.google.android.wearable"
             android:required="false" />
 
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
         <activity
             android:name=".MainActivityWear"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.DeviceDefault.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".SyncFailedActivityWear"
+            android:label="@string/sync_failed_title"
+            android:theme="@android:style/Theme.DeviceDefault.Light"/>
+
+        <activity android:name=".NumberActivityWear"
+            android:label="@string/sync_failed_title"
+            android:theme="@android:style/Theme.DeviceDefault.Light"/>
+
     </application>
 
 </manifest>

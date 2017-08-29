@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AndroidWearSync</string>
     <string name="hello_world">Hello World!</string>
+    <string name="syncing">Syncing</string>
+    <string name="sync_failed">Sync failed</string>
+    <string name="sync_failed_title">Sync failed</string>
 </resources>
